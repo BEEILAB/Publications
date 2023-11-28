@@ -8,3 +8,67 @@ Wetlands are considered one of the most valuable ecosystems around the world and
 This dataset was produced using surface reflectance data from Landsat Collection 2, collected by Landsat platforms -4, -5, -7, -8, and -9. The data provides a detailed view of the Earth's surface with a resolution of 30 meters. It covers a time range from 1982 to the present. The dataset description is listed below.
 
 ![DataDescription](https://github.com/BEEILAB/Publications/assets/148573233/5e55305f-a4b4-4ade-b578-6731cfbd6ca3)
+
+# Web Application
+
+To view data through our Google Earth Engine web application, visit the link below:
+
+https://ma1375hemati.users.earthengine.app/view/cjrs
+
+The grids of the study area, along with the boundary coordinates from Figure 2 of the article, are listed below.
+
+![Boundary](https://github.com/BEEILAB/Publications/assets/148573233/46753205-a203-46ad-b1e4-8ec5dc4c1587)
+
+
+To use the application, enter the ID of the desired section and click on the "Run" button (See the following  figure).
+
+
+![Usage](https://github.com/BEEILAB/Publications/assets/148573233/6703e26a-0561-4000-a798-f19df74adee5)
+
+
+
+Please note that a lower resolution of the product is shown in the app due to memory limitations.
+
+
+# Exporting Data
+To export data, a Google Earth Engine account is required. If you have not registered, you can register using the the following link:
+
+https://earthengine.google.com/new_signup/ 
+
+Then, To export data, use a boundary box of your desired area or the drawing tools to create a geometry.
+
+### Using Boundary Coordinates
+
+Using the "ExportBoundary" function, input your desired "startyear" and "endyear" in addition to coordinates for the boundary box of the area; for example:
+	
+
+```
+var WO = require('users/ma1375hemati/CJRS_App:WO_CJRS');
+// Using a boundary box
+// Inputs: Start year, end year, west, south, east, north
+WO.ExportBoundary(1982,2023,-105, 51,-104,52);
+```
+
+![GuideGee](https://github.com/BEEILAB/Publications/assets/148573233/1f0cca69-7969-4315-bb3c-98893269da59)
+
+
+### Using a Geometry
+At first, create your desired geometry using the drawing tools, or import your geometry. After that, using the "ExportGeometry" function, input your desired "startyear", "endyear" and geometry. For example:
+
+```
+var WO = require('users/ma1375hemati/CJRS_App:WO_CJRS');
+// Using a boundary geometry
+// Inputs: Start year, end year, geometry
+WO.ExportGeometry(1982,2023,geometry);
+```
+
+# Citation
+
+```plaintext
+@article{hemati2023comprehensive,
+  title={Comprehensive Landsat-based Analysis of Long-term Surface Water Dynamics over Wetlands and Waterbodies in North America},
+  author={Hemati, Mohammadali and Mahdianpari, Masoud and Shiri, Hodjat and Mohammadimanesh, Fariba},
+  journal={Canadian Journal of Remote Sensing},
+  year={2023},
+  note={In Press}
+}
