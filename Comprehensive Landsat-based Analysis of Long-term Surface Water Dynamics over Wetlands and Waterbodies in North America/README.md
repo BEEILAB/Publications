@@ -7,7 +7,9 @@ Wetlands are considered one of the most valuable ecosystems around the world and
 # Description
 This dataset was produced using surface reflectance data from Landsat Collection 2, collected by Landsat platforms -4, -5, -7, -8, and -9. The data provides a detailed view of the Earth's surface with a resolution of 30 meters. It covers a time range from 1982 to the present. The dataset description is listed below.
 
-![DataDescription](https://github.com/BEEILAB/Publications/assets/148573233/5e55305f-a4b4-4ade-b578-6731cfbd6ca3)
+
+![DataDescription](https://github.com/BEEILAB/Publications/assets/148573233/dfc8e998-cbd8-4f22-86e3-b00b8f7ab315)
+
 
 # Web Application
 
@@ -17,7 +19,8 @@ https://ma1375hemati.users.earthengine.app/view/cjrs
 
 The grids of the study area, along with the boundary coordinates from Figure 2 of the article, are listed below.
 
-![Boundary](https://github.com/BEEILAB/Publications/assets/148573233/46753205-a203-46ad-b1e4-8ec5dc4c1587)
+
+![Boundary](https://github.com/BEEILAB/Publications/assets/148573233/9706ea24-c9ae-4c92-b265-0a161704ac60)
 
 
 To use the application, enter the ID of the desired section and click on the "Run" button (See the following  figure).
