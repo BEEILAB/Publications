@@ -52,7 +52,8 @@ var WO = require('users/ma1375hemati/CJRS_App:WO_CJRS');
 WO.ExportBoundary(1982,2023,-105, 51,-104,52);
 ```
 
-![GuideGee](https://github.com/BEEILAB/Publications/assets/148573233/1f0cca69-7969-4315-bb3c-98893269da59)
+
+![GuideGee](https://github.com/BEEILAB/Publications/assets/148573233/68eee7d2-5a74-48df-97c3-8f6fd474c6e8)
 
 
 ### Using a Geometry
