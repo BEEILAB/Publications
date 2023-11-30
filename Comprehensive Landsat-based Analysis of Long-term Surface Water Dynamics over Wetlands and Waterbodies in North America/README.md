@@ -53,7 +53,8 @@ WO.ExportBoundary(1982,2023,-105, 51,-104,52);
 ```
 
 
-![GuideGee](https://github.com/BEEILAB/Publications/assets/148573233/68eee7d2-5a74-48df-97c3-8f6fd474c6e8)
+![GuideGee](https://github.com/BEEILAB/Publications/assets/148573233/3e1bf734-43ef-4e1a-bd64-f4553bfcc3d6)
+
 
 
 ### Using a Geometry
